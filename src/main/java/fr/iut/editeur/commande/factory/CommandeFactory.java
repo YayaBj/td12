@@ -22,6 +22,8 @@ public class CommandeFactory {
 
             case "remplacer" : return new CommandeRemplacer(document, parameters);
 
+            case "majuscules" : return new CommandeMajuscules(document, parameters);
+
             default: return null;
         }
     }
