@@ -1,7 +1,7 @@
 package fr.iut.editeur.document;
 
 public class Document {
-
+//
     private String texte;
 
     public Document() {
