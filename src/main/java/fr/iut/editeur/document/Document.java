@@ -30,6 +30,14 @@ public class Document {
         remplacer(start,end, texte.substring(start,end).toUpperCase());
     }
 
+    public void clear() {
+        remplacer(0,texte.length(),"aaa");
+    }
+
+    public void effacer(int start, int end) {
+        remplacer(start,end,"");
+    }
+
     @Override
     public String toString() {
         return this.texte;
